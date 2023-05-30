@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "185636700098",
+    "project_id": "pervassivewordgame-a8d4a",
+    "storage_bucket": "pervassivewordgame-a8d4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185636700098:android:6d901a65864503654ea05b",
+        "android_client_info": {
+          "package_name": "com.example.pervassivewordgame"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeqgVFcK5qWQTeCrHQg3xE69HEMoNaplY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

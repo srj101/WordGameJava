@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WordBrainstorm Made By SR Joy</string>
+    <string name="word_count">Word Count: %1$d</string>
+
+    <string-array name="mode_array">
+        <item>Easy</item>
+        <item>Difficult</item>
+        <item>Hard</item>
+    </string-array>
+
+    <color name="green">#00FF00</color>
+
+
+</resources>

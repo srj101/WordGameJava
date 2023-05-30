@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".GameActivity">
+
+    <!-- Current Selection TextView -->
+    <TextView
+        android:id="@+id/currentSelectionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Selection : "
+        android:textSize="18sp" />
+
+    <!-- Countdown TextView -->
+    <TextView
+        android:id="@+id/countdownTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/currentSelectionTextView"
+        android:layout_centerHorizontal="true"
+        android:text="Countdown: 00:00"
+        android:textSize="18sp" />
+
+    <!-- Word Count TextView -->
+    <TextView
+        android:id="@+id/wordCountTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/countdownTextView"
+        android:text="Word Count: 0"
+        android:textSize="18sp" />
+
+
+    <!-- Letters GridLayout -->
+    <GridLayout
+        android:id="@+id/lettersGrid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/wordCountTextView"
+        android:layout_above="@id/buttonLayout"
+        android:layout_weight="1"
+        android:columnCount="4"
+        android:rowCount="1"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="true"
+        android:useDefaultMargins="false">
+    </GridLayout>
+
+
+
+
+
+
+    <!-- Button Layout -->
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Submit"
+            android:layout_marginRight="8dp" />
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Reset"
+            android:layout_marginLeft="8dp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
