@@ -30,7 +30,7 @@ WordGame is designed to offer an interactive and educational experience for user
 
 | Screenshot | Description |
 |------------|-------------|
-| ![Main Screen](screenshots/Screenshot_20230530_215355.png) | The main screen displaying the welcome interface. |
+| ![Main Screen](screenshots/Screenshot_20230530_215355.png) | The game screen displaying the welcome interface. |
 | ![Gameplay](screenshots/Screenshot_20230530_215413.png) | Gameplay screen with random letter generation. |
 | ![Word List](screenshots/Screenshot_20230530_215429.png) | View words you've successfully created. |
 | ![Results](screenshots/Screenshot_20230530_215448.png) | End-of-game screen showing scores and performance. |
@@ -40,7 +40,7 @@ WordGame is designed to offer an interactive and educational experience for user
 ## 🛠️ Technology Stack
 
 ### **Frontend**
-- Kotlin for a smooth and efficient Android application.
+- Java for a smooth and efficient Android application.
 
 ### **Backend**
 - Room Database for managing game data and player progress.
